@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <title>Funny Image Viewer</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+  </head>
+  <body>
+    <h1>GOOGLY EYES 👀</h1>
+    <div class="button-container">
+      <!-- Buttons -->
+      <button class="button" onclick="handleImageSelect()" id="select-btn">Upload</button>
+      <!-- <button class="button" onclick="handleCamera()" id="camera-btn">Camera</button> -->
+      <button class="button" onclick="handleGenerate()" id="generate-btn">Generate</button>
+      <button class="button" id="download-btn" style="display:none">Download</button>
+    </div>
+    <!-- Image viewer panel -->
+    <div class="image-panel">
+      <img id="image-display" class="image-display" src="" alt="">
+      <img id="image-preview" class="image-display" src="" alt="">
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>

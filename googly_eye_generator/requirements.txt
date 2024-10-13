@@ -1,0 +1,15 @@
+mtcnn==1.0.0
+fastapi==0.111.1
+fastapi-cli==0.0.4
+loguru==0.7.2
+logging
+typing
+pytest==8.3.1
+pydantic==2.8.2
+httpx==0.27.0
+setuptools==70.1.0
+opencv-python-headless==4.9.0.80
+tensorflow==2.17.0
+pydantic_settings==2.5.2
+python-multipart==0.0.9
+pytest-asyncio==0.24.0
