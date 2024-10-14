@@ -15,8 +15,8 @@ To run the application using tox,
     1. Install tox (tox==4.21.2) 
     2. cd googly_eye_generator/
     3. And run the command - tox 
-        This command installs the required packages mentioned in requirements.txt and create a virtaul environment 
-        under '.tox' folder.
+        This command installs the required packages mentioned in requirements.txt 
+        and create a virtaul environment under '.tox' folder.
         It runs the pytest to test the endpoints and finally starts the uvicorn server.
 
 To create a docker using the Dockerfile
@@ -24,7 +24,8 @@ To create a docker using the Dockerfile
     1. Install docker
     2. Run - docker build -t googly_image .
     3. To execute - docker run -e PORT=3000 -p 3000:3000 googly_image
-        Here -e in the env variable of the container port to which it runs the app
-        -p is the host_port:container_port (-e PORT and container port in -p should be same)
+        Here -e in the env variable of the container port at which it runs the app
+        -p is the host_port:container_port 
+        (-e PORT and container port in -p should be same)
     4. Open http://0.0.0.0:host_port to view the app on the browser.
 
